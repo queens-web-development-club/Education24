@@ -107,6 +107,8 @@ We can now see this list on our website by opening up our HTML file!
 
 From here we are going to add a new line and then add an ordered list by using a **ol** tag, meaning ordered list. This just means there will be numbering, 1, 2, 3... in order to display our points. We'll add some content using the **li** or list items tag. Then we'll return to our web browser only to see that our changes aren't there -- we forgot to refresh
 
+> Having provided a brief introduction to HTML through the head & body tags as well as the implementation of lists, bolding, and new lines.  We're going to ask you to apply some of these concepts, open up the code editor of your choice, create a new HTML file, and try to create a small little portfolio website containing some basic information about you, some different sizes of text, and anything else you can think of.  Feel free to ask for help, or use online resources.  Our hope is that by having you play with what we're showing you for a few minuities it will make more sense and give you some time to make mistakes.
+
 We are going to open up `club5.html` and have a quick look at tables. First let's have a peak at what the website actually looks like. The best way to understand our code is to look at the table in terms of rows, with the **titles** being bolded at the top.
 
 ```html
@@ -166,6 +168,8 @@ Within our link we are going to define an image tag. We will use the `src` prope
 ```
 
 We now have a working clickable image!
+
+> As a final example for this tutorial, attempt to make your very own clickable image on the portfolio website you've created.
 
 We are now going to look at the final version of our file, `club7.html`.
 
