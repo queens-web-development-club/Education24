@@ -1,0 +1,62 @@
+/* General styling */
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: white;
+  font-family: sans-serif;
+}
+
+/*  Navbar styling  */
+.navbar {
+  background-color: gray;
+  width: 100%;
+  padding: 10px;
+}
+
+.nav-link {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+  padding-left: 40px;
+}
+
+.nav-link:hover {
+  color: rgb(204, 85, 0);
+}
+
+.blog-image-link:hover {
+  padding-left: 10px;
+}
+
+#contact-form h3 {
+  background-color: inherit;
+  margin-left: 20px;
+  padding-top: 20px;
+  border: 1px solid rgb(96, 96, 227);
+}
+
+#contact-form button {
+  background-color: rgb(87, 181, 91);
+  color: white;
+  font-family: sans-serif;
+  padding: 5px 10px 5px 10px;
+  border: 0px;
+  margin-left: 20px;
+}
+
+#contact-form button:hover {
+  background-color: rgb(49, 116, 52);
+}
+
+/* Maybe bonus to add on as a cool thing? */
+.rainbow {
+  width: 24.5%;
+  background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.rainbow:hover {
+  color: transparent;
+  transition: 200ms ease;
+}
