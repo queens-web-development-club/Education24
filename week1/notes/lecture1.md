@@ -77,9 +77,9 @@ We are also using **br** in order to insert line breaks. These are useful for fo
 
 We also insert our first link! The **a** tag is used to define a hyperlink, we use the **href** property in order to set where the link is going. We also include text within the tag -- this is what the user will click on to be redirected.
 
-Text formatting is the main benefit of using HTML, and even when we continue on later to React these basic HTML tags will be useful for styling and properly displaying the content on our site!
+Text formatting is the main benefit of using HTML, and even when we continue on later to React these basic HTML tags will be useful for stlying and properly displaying the content on our site!
 
-Let's move on to adding a list to our site. Let's make a new file, `club4.html` and copy over our previous site from `club3.html`. Underneath we are going to add two lists.
+Let's move on to adding a list to our site. Let's make a new file, `club4.html` and copy over our previous site from `club3.html`. Underneth we are going to add two lists.
 
 ```html
 <ul>
