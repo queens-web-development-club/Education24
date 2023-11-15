@@ -30,11 +30,11 @@ function UpcomingEvents(props) {
   } else {
     return (
       <>
-        <div className="upcoming-events">
-          <h1>Upcoming Events</h1>
-          <h2
-            style={{ alignItems: "center", display: "flex", fontSize: "48px" }}
-          >
+        <div className="mt-16">
+          <h1 className="mb-20 text-center text-7xl font-bold text-yellow-700">
+            Upcoming Events
+          </h1>
+          <h2 className="flex items-center text-5xl font-bold">
             <center>Upcoming events will be displayed here!</center>
           </h2>
         </div>
