@@ -1,4 +1,3 @@
-import "../css/Homepage.css";
 import UpcomingEventCard from "../components/UpcomingEventCard";
 import React, { useState } from "react";
 
