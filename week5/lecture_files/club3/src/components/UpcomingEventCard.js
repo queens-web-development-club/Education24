@@ -1,5 +1,4 @@
-import '../css/Homepage.css'
-import Calendar from '../img/icons/calendarIcon.png'
+import Calendar from "../img/icons/calendarIcon.png";
 
 function UpcomingEventCard(props) {
   return (
@@ -36,7 +35,7 @@ function UpcomingEventCard(props) {
             <button className="register-button">Register</button>
             <button
               className="calendar-button"
-              style={{ 'align-items': 'center', display: 'flex' }}
+              style={{ "align-items": "center", display: "flex" }}
             >
               <img src={Calendar}></img>
             </button>
@@ -44,7 +43,7 @@ function UpcomingEventCard(props) {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default UpcomingEventCard
+export default UpcomingEventCard;

@@ -1,13 +1,12 @@
-import '../css/Homepage.css'
-import UpcomingEventCard from '../components/UpcomingEventCard'
-import React, { useState } from 'react'
+import UpcomingEventCard from "../components/UpcomingEventCard";
+import React, { useState } from "react";
 
 // How we would pass props not using a database
 
-const events = []
+const events = [];
 
 function UpcomingEvents(props) {
-  const [data, setData] = useState(events)
+  const [data, setData] = useState(events);
 
   if (data != null && data.length > 0) {
     return (
@@ -27,21 +26,21 @@ function UpcomingEvents(props) {
           </div>
         </div>
       </>
-    )
+    );
   } else {
     return (
       <>
         <div className="upcoming-events">
           <h1>Upcoming Events</h1>
           <h2
-            style={{ alignItems: 'center', display: 'flex', fontSize: '48px' }}
+            style={{ alignItems: "center", display: "flex", fontSize: "48px" }}
           >
             <center>Upcoming events will be displayed here!</center>
           </h2>
         </div>
       </>
-    )
+    );
   }
 }
 
-export default UpcomingEvents
+export default UpcomingEvents;
