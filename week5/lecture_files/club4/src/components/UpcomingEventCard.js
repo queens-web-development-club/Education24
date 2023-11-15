@@ -32,10 +32,10 @@ function UpcomingEventCard(props) {
             <span>{props.info.registered}</span>
           </div>
           <div className="flex justify-between text-3xl">
-            <button className="rounded-lg bg-lime-500 px-8 py-5 text-white transition-colors duration-300">
+            <button className="rounded-lg bg-lime-500 px-8 py-5 text-white transition-colors duration-300 hover:bg-lime-600">
               Register
             </button>
-            <button className="flex h-20 items-center rounded-lg bg-lime-500 p-5">
+            <button className="flex h-20 items-center rounded-lg bg-lime-500 p-5 hover:bg-lime-600">
               <img src={Calendar}></img>
             </button>
           </div>
