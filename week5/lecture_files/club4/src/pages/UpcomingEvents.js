@@ -63,7 +63,7 @@ function UpcomingEvents(props) {
     return (
       <>
         <div className="mt-16	text-yellow-700">
-          <h1 classname="mb-20 text-center text-7xl font-bold">
+          <h1 className="mb-20 text-center text-7xl font-bold">
             Upcoming Events
           </h1>
           <div className="flex flex-col items-center bg-lime-500 py-8">
