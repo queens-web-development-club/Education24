@@ -25,10 +25,10 @@ function UpcomingEvents(props) {
               return <UpcomingEventCard info={event} />;
             })}
           </div>
-          <div className="upcoming-events-end">
-            <div className="horizontal-line"></div>
+          <div className="flex items-center justify-center py-8">
+            <div className="mx-5 w-4/12 border"></div>
             <p>You've reached the end</p>
-            <div className="horizontal-line"></div>
+            <div className="mx-5 w-4/12 border"></div>
           </div>
         </div>
       </>
