@@ -28,7 +28,7 @@ function UpcomingEventCard(props) {
             <span>{props.info.spaces_left}</span>
           </div>
           <div className="flex justify-between pb-6 text-3xl">
-            <p>Registerd</p>
+            <p>Registered</p>
             <span>{props.info.registered}</span>
           </div>
           <div className="flex justify-between text-3xl">
