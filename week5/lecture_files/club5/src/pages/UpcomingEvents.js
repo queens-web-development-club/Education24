@@ -16,9 +16,11 @@ function UpcomingEvents(props) {
   if (data != null && data.length > 0) {
     return (
       <>
-        <div className="upcoming-events">
-          <h1>Upcoming Events</h1>
-          <div className="events-section">
+        <div className="mt-16	text-yellow-700">
+          <h1 className="mb-20 text-center text-7xl font-bold	">
+            Upcoming Events
+          </h1>
+          <div className="flex flex-col items-center bg-lime-500 py-8">
             {data.map((event) => {
               return <UpcomingEventCard info={event} />;
             })}
